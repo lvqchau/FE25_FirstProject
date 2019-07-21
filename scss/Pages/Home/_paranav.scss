@@ -1,0 +1,92 @@
+.para__nav {
+  background: url(../img/pattern-2.png) center center;
+  background-attachment: fixed;
+  min-height: 625px;
+  .nav__content {
+    padding-top: 95px;
+    padding-bottom: 95px;
+
+    .tab-wrapper {
+      .tab {
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 30px;
+        li {
+          float: left;
+          list-style: none;
+          margin: 10px 10px 0 0;
+          width: 175px;
+          height: 105px;
+          background-color: $opacity-4;
+          @media screen and (max-width: 768px) {
+            width: 100%;
+          }
+          a {
+            display: block;
+            padding: 0;
+            border-radius: 0;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            .lnr-mobile::before,
+            .lnr-telescope::before,
+            .lnr-circle-compass::before,
+            .lnr-documents::before,
+            .lnr-lightbulb::before {
+              font-size: 36px;
+              line-height: 105px;
+              color: black;
+            }
+            &:after {
+              content: "";
+              opacity: 0;
+              width: 20px;
+              height: 10px;
+              position: absolute;
+              bottom: -10px;
+              left: 50%;
+              transform: translateX(-50%);
+              transition: all 0.3s ease;
+            }
+            &.active,
+            &:hover {
+              background: #fff;
+              position: relative;
+              &:after {
+                opacity: 1;
+                clip-path: polygon(0 0, 100% 0, 50% 100%);
+                background-color: $color-white;
+                z-index: 9;
+              }
+            }
+          }
+        }
+      }
+
+      .tab-content {
+        padding: 20px 0;
+        .tab-item {
+          h5,
+          h2 {
+            letter-spacing: 1px;
+          }
+          h5 {
+            color: $color-gray-2;
+            font-weight: $fw-light;
+            margin-bottom: 10px;
+          }
+          h2 {
+            color: $color-gray-1;
+            font-weight: $fw-normal;
+
+            margin-bottom: 60px;
+          }
+          p {
+            line-height: $lh-p;
+            color: $color-gray-0;
+          }
+        }
+      }
+    }
+  }
+}

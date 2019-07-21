@@ -1,0 +1,30 @@
+.banner {
+  background: url(../img/banner/index-banner-2.jpg) no-repeat center center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .banner__content {
+    text-align: center;
+    h1,
+    h3 {
+      color: $color-white;
+      font-weight: $fw-light;
+      letter-spacing: 7px;
+    }
+    h3 {
+      font-size: $fs-10;
+      @media screen and (max-width: 768px) {
+        font-size: $fs-4;
+      }
+    }
+    h1 {
+      @media screen and (max-width: 768px) {
+        font-size: $fs-2;
+      }
+    }
+  }
+}

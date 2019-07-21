@@ -1,0 +1,26 @@
+@import "Helper/variables";
+@import "Base/reset";
+@import "Vendor/icomoon/ico";
+
+@import "Helper/mixin";
+@import "Helper/extend";
+@import "Helper/animation";
+@import "Components/button";
+@import "Components/overlay";
+
+@import "Layouts/header";
+@import "Layouts/footer";
+@import "Pages/Home/headline";
+
+//section
+@import "Pages/Home/banner";
+@import "Pages/Home/intro";
+@import "Pages/Home/skill";
+@import "Pages/Home/showcase";
+@import "Pages/Home/team";
+@import "Pages/Home/parallax";
+@import "Pages/Home/blog";
+@import "Pages/Home/paranav";
+@import "Pages/Home/countup";
+@import "Pages/Home/comment";
+@import "Pages/Home/clientlogo";

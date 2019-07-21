@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Linearicons-Free";
+  src: url("../fonts/Linearicons-Free.eot?f5f2oc");
+  src: url("../fonts/Linearicons-Free.eot?f5f2oc#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Linearicons-Free.ttf?f5f2oc") format("truetype"),
+    url("../fonts/Linearicons-Free.woff?f5f2oc") format("woff"),
+    url("../fonts/Linearicons-Free.svg?f5f2oc#Linearicons-Free") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lnr {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Linearicons-Free" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lnr-playsquare:before {
+  content: "\e909";
+  font-size: 40px !important;
+}
+.lnr-left-arrow,
+.lnr-right-arrow {
+  font-size: $fs-2;
+}
+.lnr-left-arrow:before {
+  content: "\e907";
+}
+.lnr-right-arrow:before {
+  content: "\e908";
+}
+.lnr-cross:before {
+  content: "\ea0f";
+}
+.lnr-close:before {
+  content: "\f00d";
+}
+.lnr-remove:before {
+  content: "\f00d";
+}
+.lnr-times:before {
+  content: "\f00d";
+}
+.lnr-lnr-menu:before {
+  content: "\e902";
+  color: #fff;
+  font-size: $fs-2;
+}
+.lnr-database1:before {
+  content: "\e901";
+}
+.lnr-play:before {
+  content: "\e900";
+}
+.lnr-mobile:before {
+  font-size: 30px;
+  color: white;
+  content: "\e000";
+}
+.lnr-desktop:before {
+  content: "\e002";
+}
+.lnr-documents:before {
+  content: "\e006";
+}
+.lnr-telescope:before {
+  content: "\e02a";
+}
+.lnr-attachment:before {
+  content: "\e02e";
+  font-size: 40px !important;
+}
+.lnr-lightbulb:before {
+  content: "\e030";
+}
+.lnr-layers:before {
+  content: "\e031";
+}
+.lnr-tools:before {
+  font-size: 30px;
+  color: white;
+  content: "\e033";
+}
+.lnr-magnifying-glass:before {
+  content: "\e037";
+}
+.lnr-circle-compass:before {
+  content: "\e038";
+}
+.lnr-linegraph:before {
+  content: "\e039";
+}
+.lnr-wine:before {
+  font-size: 30px;
+  color: white;
+  content: "\e043";
+}
+.lnr-facebook2:before {
+  content: "\e05d";
+}
+.lnr-twitter1:before {
+  content: "\e05e";
+}
+.lnr-googleplus:before {
+  content: "\e05f";
+}
+.lnr-rss:before {
+  content: "\e060";
+}
+.lnr-dribbble2:before {
+  content: "\e063";
+}
+.lnr-search1:before {
+  content: "\e903";
+  font-size: 40px !important;
+}
+.lnr-play1:before {
+  content: "\e904";
+  color: rgb(141, 141, 141);
+}
+.lnr-play1 .path2:before {
+  content: "\e905";
+  margin-left: -1.03125em;
+  color: rgb(100, 100, 100);
+}
+.lnr-play1 .path3:before {
+  content: "\e906";
+  margin-left: -1.03125em;
+  color: rgb(36, 36, 36);
+}
+.lnr-shopping-cart:before {
+  content: "\f07a";
+}
+.lnr-facebook:before {
+  content: "\f09a";
+}
+.lnr-facebook-f:before {
+  content: "\f09a";
+}
+.lnr-angle-left:before {
+  content: "\f104";
+}
+.lnr-angle-right:before {
+  content: "\f105";
+}
+.lnr-angle-up:before {
+  content: "\f106";
+}
+.lnr-angle-down:before {
+  content: "\f107";
+}
+.lnr-dribbble:before {
+  content: "\f17d";
+}
+.lnr-behance:before {
+  content: "\f1b4";
+}
+.lnr-search:before {
+  content: "\e986";
+}
+.lnr-play2:before {
+  content: "\ea15";
+}
+.lnr-play3:before {
+  content: "\ea1c";
+}
+.lnr-google-plus:before {
+  content: "\ea8b";
+}
+.lnr-facebook1:before {
+  content: "\ea90";
+}
+.lnr-twitter:before {
+  content: "\ea96";
+}
+.lnr-dribbble1:before {
+  content: "\eaa7";
+}
+.lnr-behance1:before {
+  content: "\eaa8";
+}
+.lnr-database:before {
+  content: "\e80e";
+}
+.lnr-chevron-up:before {
+  content: "\e873";
+}
+.lnr-arrow-right:before {
+  content: "\e87a";
+}

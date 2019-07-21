@@ -1,0 +1,27 @@
+.overlay {
+  opacity: 0;
+  padding: 25px 25px;
+  transition: all 0.3s;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  background-color: $color-gray-op;
+  top: 0px;
+  left: 0px;
+  .flex__center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .overlay__content {
+    @extend .flex__center;
+    width: 100%;
+    height: 100%;
+    background-color: $opacity-1;
+    .overlay__text {
+      @extend .flex__center;
+      transition: all 0.3s 0.2s;
+    }
+  }
+}

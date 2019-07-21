@@ -1,0 +1,28 @@
+.parallax {
+  background: url(../img/parallax/8.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1,
+  p {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: $fw-light;
+  }
+  h1 {
+    font-size: $fs-12;
+    color: white;
+    margin-bottom: 60px;
+    @media screen and (max-width: 768px) {
+      font-size: $fs-13;
+    }
+  }
+  p {
+    font-size: $fs-9;
+    color: $color-primary;
+  }
+}

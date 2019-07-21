@@ -1,0 +1,46 @@
+.btn-black {
+  @include button_lg($color-white, $color-gray-4, $color-white, $color-primary);
+}
+
+.btn-orange {
+  @include button_lg($color-white, $color-primary, $color-gray-4, $color-white);
+}
+
+.btn-orange-cart {
+  @include button_lg($color-white, $color-primary, $color-white, $color-gray-4);
+}
+
+/* Top button */
+.top_btn {
+  @include button_lg(
+    $color-primary,
+    $opacity-2,
+    $color-gray-11,
+    $color-primary
+  );
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  transition-property: bottom, opacity;
+  transition: 0.4s ease;
+
+  .lnr-chevron-up::before {
+    line-height: 40px;
+    color: white;
+  }
+  &:hover {
+    .lnr-chevron-up::before {
+      color: $color-gray-11;
+    }
+  }
+}
+
+.top_btn.active {
+  opacity: 1;
+  bottom: 20px;
+  cursor: pointer !important;
+}

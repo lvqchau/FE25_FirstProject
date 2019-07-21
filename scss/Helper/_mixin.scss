@@ -1,0 +1,29 @@
+@mixin button_lg($color, $bg-color, $color-hover, $bg-color-hover) {
+  background-color: $bg-color;
+  white-space: nowrap;
+  transition: all 0.3s;
+  a {
+    display: block;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: $color;
+    font-weight: $fw-light;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    @media screen and (max-width: 768px) {
+      font-size: $fs-7;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    a {
+      color: $color-hover;
+    }
+
+    background-color: $bg-color-hover;
+  }
+}
